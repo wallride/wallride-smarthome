@@ -1,0 +1,27 @@
+{
+  "name": "wallride-smarthome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && node ./build/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ips.su/di": "^1.3.3",
+    "@ips.su/im": "^2.2.33",
+    "@ips.su/rm": "^1.2.37",
+    "@ips.su/utils": "^1.1.0",
+    "moment": "^2.22.2",
+    "mongodb": "^3.0.10",
+    "tslib": "^1.9.2",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/mongodb": "^3.0.21",
+    "@types/node": "^6.0.113",
+    "@types/uuid": "^3.4.3",
+    "typescript": "^2.9.2"
+  }
+}

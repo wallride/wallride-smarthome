@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "removeComments": false,
+    "target":"es6",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "/declaration",
+    "declarationMap": true,
+    "project": "./src",
+    "rootDir": "./src",
+    "lib": ["esnext"],
+    "importHelpers": true,
+    "outDir": "./build"
+  }
+}
